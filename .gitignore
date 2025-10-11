@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+.venv/
+multiview_venv/
+venv/
+ENV/
+
+# Dataset files (too large for GitHub)
+*.zip
+data/datasets/
+datasets/
+dual_dataset/
+quad_dataset/
+octal_dataset/
+full_dataset/
+
+# Model files (large)
+*.pt
+data/models/
+models/
+
+# Training outputs
+runs/
+data/results/*/
+results/
+
+# Logs
+*.log
+
+# LaTeX auxiliary files
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+__pycache__/
+old/

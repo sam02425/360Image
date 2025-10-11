@@ -1,0 +1,308 @@
+{
+  "performance_data": {
+    "dual": {
+      "training_time": 4524.157426118851,
+      "training_time_formatted": "1:15:24",
+      "epochs_completed": 100,
+      "model_path": "/home/saumil/Desktop/360paper/data/models/dual_best.pt",
+      "start_resources": {
+        "timestamp": "2025-08-28T00:26:11.290861",
+        "dataset": "dual",
+        "phase": "pre_training",
+        "cpu_percent": 9.8,
+        "memory_percent": 17.6,
+        "memory_used_gb": 4.885520935058594,
+        "gpu_utilization": 53.0,
+        "gpu_memory_used": 360.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 4.39453125,
+        "gpu_temperature": 31.0
+      },
+      "end_resources": {
+        "timestamp": "2025-08-28T01:41:36.470844",
+        "dataset": "dual",
+        "phase": "post_training",
+        "cpu_percent": 2.8,
+        "memory_percent": 34.3,
+        "memory_used_gb": 8.772132873535156,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 772.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 9.423828125,
+        "gpu_temperature": 47.0
+      },
+      "metrics": {
+        "mAP50": 0.4764262683446825,
+        "mAP50_95": 0.4558926872191053,
+        "precision": 0.6573476744897854,
+        "recall": 0.4405887894009931,
+        "f1": 0.52757154105745
+      }
+    },
+    "quad": {
+      "training_time": 4528.826553583145,
+      "training_time_formatted": "1:15:28",
+      "epochs_completed": 100,
+      "model_path": "/home/saumil/Desktop/360paper/data/models/quad_best.pt",
+      "start_resources": {
+        "timestamp": "2025-08-28T01:41:48.113861",
+        "dataset": "quad",
+        "phase": "pre_training",
+        "cpu_percent": 5.4,
+        "memory_percent": 36.2,
+        "memory_used_gb": 8.882453918457031,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 2571.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 31.38427734375,
+        "gpu_temperature": 45.0
+      },
+      "end_resources": {
+        "timestamp": "2025-08-28T02:57:17.962695",
+        "dataset": "quad",
+        "phase": "post_training",
+        "cpu_percent": 2.5,
+        "memory_percent": 39.7,
+        "memory_used_gb": 9.737735748291016,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 756.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 9.228515625,
+        "gpu_temperature": 46.0
+      },
+      "metrics": {
+        "mAP50": 0.9567467810126941,
+        "mAP50_95": 0.9235621324691431,
+        "precision": 0.8127469707577428,
+        "recall": 0.8894938781388165,
+        "f1": 0.8493903262085454
+      }
+    },
+    "octal": {
+      "training_time": 4537.191763162613,
+      "training_time_formatted": "1:15:37",
+      "epochs_completed": 100,
+      "model_path": "/home/saumil/Desktop/360paper/data/models/octal_best.pt",
+      "start_resources": {
+        "timestamp": "2025-08-28T02:57:30.154468",
+        "dataset": "octal",
+        "phase": "pre_training",
+        "cpu_percent": 5.3,
+        "memory_percent": 39.2,
+        "memory_used_gb": 9.571956634521484,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 2343.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 28.60107421875,
+        "gpu_temperature": 44.0
+      },
+      "end_resources": {
+        "timestamp": "2025-08-28T04:13:08.368663",
+        "dataset": "octal",
+        "phase": "post_training",
+        "cpu_percent": 2.8,
+        "memory_percent": 41.6,
+        "memory_used_gb": 10.060466766357422,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 745.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 9.09423828125,
+        "gpu_temperature": 46.0
+      },
+      "metrics": {
+        "mAP50": 0.9730184430676646,
+        "mAP50_95": 0.9483605648107114,
+        "precision": 0.9413150045877033,
+        "recall": 0.956681483849648,
+        "f1": 0.9489360394974481
+      }
+    },
+    "full": {
+      "training_time": 4544.712165594101,
+      "training_time_formatted": "1:15:44",
+      "epochs_completed": 100,
+      "model_path": "/home/saumil/Desktop/360paper/data/models/full_best.pt",
+      "start_resources": {
+        "timestamp": "2025-08-28T04:13:18.817162",
+        "dataset": "full",
+        "phase": "pre_training",
+        "cpu_percent": 5.1,
+        "memory_percent": 41.3,
+        "memory_used_gb": 9.992706298828125,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 2516.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 30.712890625,
+        "gpu_temperature": 45.0
+      },
+      "end_resources": {
+        "timestamp": "2025-08-28T05:29:04.552002",
+        "dataset": "full",
+        "phase": "post_training",
+        "cpu_percent": 2.5,
+        "memory_percent": 41.8,
+        "memory_used_gb": 10.010147094726562,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 745.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 9.09423828125,
+        "gpu_temperature": 46.0
+      },
+      "metrics": {
+        "mAP50": 0.8082870659014698,
+        "mAP50_95": 0.7848743133140589,
+        "precision": 0.8771847224679551,
+        "recall": 0.7525254968100622,
+        "f1": 0.8100874146347674
+      }
+    }
+  },
+  "resource_usage": {
+    "dual": [
+      {
+        "timestamp": "2025-08-28T00:26:11.290861",
+        "dataset": "dual",
+        "phase": "pre_training",
+        "cpu_percent": 9.8,
+        "memory_percent": 17.6,
+        "memory_used_gb": 4.885520935058594,
+        "gpu_utilization": 53.0,
+        "gpu_memory_used": 360.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 4.39453125,
+        "gpu_temperature": 31.0
+      },
+      {
+        "timestamp": "2025-08-28T01:41:36.470844",
+        "dataset": "dual",
+        "phase": "post_training",
+        "cpu_percent": 2.8,
+        "memory_percent": 34.3,
+        "memory_used_gb": 8.772132873535156,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 772.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 9.423828125,
+        "gpu_temperature": 47.0
+      }
+    ],
+    "quad": [
+      {
+        "timestamp": "2025-08-28T01:41:48.113861",
+        "dataset": "quad",
+        "phase": "pre_training",
+        "cpu_percent": 5.4,
+        "memory_percent": 36.2,
+        "memory_used_gb": 8.882453918457031,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 2571.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 31.38427734375,
+        "gpu_temperature": 45.0
+      },
+      {
+        "timestamp": "2025-08-28T02:57:17.962695",
+        "dataset": "quad",
+        "phase": "post_training",
+        "cpu_percent": 2.5,
+        "memory_percent": 39.7,
+        "memory_used_gb": 9.737735748291016,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 756.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 9.228515625,
+        "gpu_temperature": 46.0
+      }
+    ],
+    "octal": [
+      {
+        "timestamp": "2025-08-28T02:57:30.154468",
+        "dataset": "octal",
+        "phase": "pre_training",
+        "cpu_percent": 5.3,
+        "memory_percent": 39.2,
+        "memory_used_gb": 9.571956634521484,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 2343.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 28.60107421875,
+        "gpu_temperature": 44.0
+      },
+      {
+        "timestamp": "2025-08-28T04:13:08.368663",
+        "dataset": "octal",
+        "phase": "post_training",
+        "cpu_percent": 2.8,
+        "memory_percent": 41.6,
+        "memory_used_gb": 10.060466766357422,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 745.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 9.09423828125,
+        "gpu_temperature": 46.0
+      }
+    ],
+    "full": [
+      {
+        "timestamp": "2025-08-28T04:13:18.817162",
+        "dataset": "full",
+        "phase": "pre_training",
+        "cpu_percent": 5.1,
+        "memory_percent": 41.3,
+        "memory_used_gb": 9.992706298828125,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 2516.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 30.712890625,
+        "gpu_temperature": 45.0
+      },
+      {
+        "timestamp": "2025-08-28T05:29:04.552002",
+        "dataset": "full",
+        "phase": "post_training",
+        "cpu_percent": 2.5,
+        "memory_percent": 41.8,
+        "memory_used_gb": 10.010147094726562,
+        "gpu_utilization": 0.0,
+        "gpu_memory_used": 745.0,
+        "gpu_memory_total": 8192.0,
+        "gpu_memory_percent": 9.09423828125,
+        "gpu_temperature": 46.0
+      }
+    ]
+  },
+  "dataset_configs": {
+    "dual": {
+      "name": "Dual View (0\u00b0, 180\u00b0)",
+      "angles": 2,
+      "description": "Minimal view configuration for basic detection",
+      "use_case": "Resource-constrained environments, real-time applications",
+      "expected_files": 3,
+      "complexity": "Low"
+    },
+    "quad": {
+      "name": "Quad View (0\u00b0, 90\u00b0, 180\u00b0, 270\u00b0)",
+      "angles": 4,
+      "description": "Balanced view configuration for moderate accuracy",
+      "use_case": "Standard retail environments, moderate computational resources",
+      "expected_files": 3,
+      "complexity": "Medium"
+    },
+    "octal": {
+      "name": "Octal View (8 angles)",
+      "angles": 8,
+      "description": "Enhanced view configuration for improved accuracy",
+      "use_case": "High-accuracy requirements, sufficient computational resources",
+      "expected_files": 3,
+      "complexity": "High"
+    },
+    "full": {
+      "name": "Full View (24 angles)",
+      "angles": 24,
+      "description": "Complete view configuration for maximum accuracy",
+      "use_case": "Research applications, maximum accuracy requirements",
+      "expected_files": 3,
+      "complexity": "Very High"
+    }
+  }
+}

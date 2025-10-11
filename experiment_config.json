@@ -1,0 +1,66 @@
+{
+  "experiment_id": "multiview_exp_20250913_134311_9fd375c8",
+  "timestamp": "2025-09-13T13:43:11.135664",
+  "config": {
+    "num_runs": 5,
+    "num_epochs": 100,
+    "early_stopping_patience": 20,
+    "use_cross_validation": false,
+    "cv_folds": 5,
+    "cv_strategy": "kfold",
+    "confidence_level": 0.95,
+    "alpha": 0.05,
+    "correction_method": "bonferroni",
+    "effect_size_threshold": 0.2,
+    "test_multiple_hardware": false,
+    "hardware_configs": [
+      "rtx3070"
+    ],
+    "base_random_seed": 42,
+    "random_seeds": [
+      "7271",
+      "861",
+      "5391",
+      "5192",
+      "5735"
+    ],
+    "deterministic_training": false,
+    "architectures": [
+      "yolov8n",
+      "yolov11n"
+    ],
+    "view_configurations": [
+      "dual",
+      "quad",
+      "octal",
+      "full"
+    ],
+    "batch_size": 8,
+    "image_size": 640,
+    "num_workers": 4,
+    "mixed_precision": true
+  },
+  "system_info": {
+    "os": "posix",
+    "platform": "linux",
+    "cpu_count": 12,
+    "memory_gb": 31.238624572753906,
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "gpu_count": 1,
+    "gpu_names": [
+      "NVIDIA GeForce RTX 3070"
+    ],
+    "gpu_memory_gb": [
+      7.77996826171875
+    ]
+  },
+  "software_versions": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:09:02) [GCC 11.2.0]",
+    "torch": "2.8.0+cu128",
+    "numpy": "2.2.6",
+    "pandas": "2.3.2",
+    "scipy": "not available",
+    "ultralytics": "8.3.186"
+  }
+}
