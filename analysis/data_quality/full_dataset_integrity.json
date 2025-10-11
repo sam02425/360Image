@@ -1,0 +1,18 @@
+{
+  "dataset_name": "full_dataset",
+  "verification_timestamp": "2025-09-13T13:43:11.624277",
+  "splits_verified": true,
+  "data_leakage_detected": false,
+  "file_integrity_verified": true,
+  "label_consistency_verified": false,
+  "issues": [
+    "train: 3 images without labels",
+    "test: 951 labels without images"
+  ],
+  "statistics": {
+    "train_images": 4680,
+    "val_images": 1080,
+    "test_images": 951,
+    "total_images": 6711
+  }
+}

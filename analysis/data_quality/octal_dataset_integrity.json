@@ -1,0 +1,15 @@
+{
+  "dataset_name": "octal_dataset",
+  "verification_timestamp": "2025-09-13T13:43:11.539381",
+  "splits_verified": true,
+  "data_leakage_detected": false,
+  "file_integrity_verified": true,
+  "label_consistency_verified": true,
+  "issues": [],
+  "statistics": {
+    "train_images": 4680,
+    "val_images": 1080,
+    "test_images": 1080,
+    "total_images": 6840
+  }
+}
