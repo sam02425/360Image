@@ -31,6 +31,12 @@ This guide documents repository structural changes and how to update paths and w
 - `eval_octal_on_full.py` → `docs/legacy/eval_octal_on_full.py`
 - `train_all_yolo11_on_unified_eval.py` → `docs/legacy/train_all_yolo11_on_unified_eval.py`
 - `ubuntu_multiview_yolo11_sam_experiment.py` → `docs/legacy/ubuntu_multiview_yolo11_sam_experiment.py`
+- `analyze_results.py` → `docs/legacy/analyze_results.py`
+- `eval_all_models_on_unified.py` → `docs/legacy/eval_all_models_on_unified.py`
+- `experiment_dashboard.py` → `docs/legacy/experiment_dashboard.py`
+- `resume_experiment.py` → `docs/legacy/resume_experiment.py`
+- `resume_train.py` → `docs/legacy/resume_train.py`
+- `test.py` → `docs/legacy/test.py`
 
 ## Canonical Entry Points
 - Training:
@@ -69,6 +75,11 @@ All scripts expose `--help`; heavy dependencies are lazy-loaded to keep help fas
 - `docs/DOCUMENTATION_STANDARDS.md`: Markdown formatting and structure standards
 - `docs/CODE_DOCSTRING_GUIDE.md`: Python docstring style and examples
 - `docs/INDEX.md`: Navigation index for documentation
+
+## CI Workflow
+- `.github/workflows/ci-smoke.yml`: runs CLI smoke tests (`pytest -q`) and simple Markdown link checks on pull requests and pushes to `main`.
+- Link checker ignores legacy research papers and generated assets under `data/results/` to avoid false positives.
+- `README.md` now links to `docs/INDEX.md` for quick documentation navigation.
 
 ## Verification
 - Run CLI smoke tests: `pytest -q`

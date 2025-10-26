@@ -12,6 +12,9 @@ Use this index to navigate the project documentation.
   - [DOCUMENTATION_STANDARDS](./DOCUMENTATION_STANDARDS.md): Markdown style guide
   - [CODE_DOCSTRING_GUIDE](./CODE_DOCSTRING_GUIDE.md): Python docstring style and examples
 
+- Data
+  - [DATASET_INTEGRATION](./DATASET_INTEGRATION.md): Use Roboflow or local datasets
+
 - Reference and Legacy
   - [Legacy Docs and Scripts](./legacy/README.md): Historical context and archived materials
   - Images: `docs/images/`

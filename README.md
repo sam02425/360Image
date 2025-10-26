@@ -14,6 +14,7 @@ A unified repository for retail shelf item detection, recognition, and analysis 
 - `docs/` — Documentation and papers
   - `images/` figures and plots
   - `legacy/` historical scripts (migrated)
+  - See docs index: [docs/INDEX.md](docs/INDEX.md)
 - `model_selection.py` — Utility to benchmark and recommend models (MLflow integrated)
 
 ## Key Capabilities
@@ -22,13 +23,32 @@ A unified repository for retail shelf item detection, recognition, and analysis 
 - Optional DVC integration to record dataset versions
 - DEIM pipeline (detector + CLIP embeddings) for size‑aware recognition
 
+## Datasets
+Roboflow option:
+```bash
+pip install roboflow
+python scripts/prepare_dataset.py --source roboflow --workspace lamar-university-venef --project liquor-data --version 4 --format yolov8
+```
+
+Local option:
+```bash
+python scripts/prepare_dataset.py --source local --dataset-dir /path/to/dataset --classes docs/classes.txt
+```
+
+- Use the printed `data.yaml` with `--data` in training scripts.
+- See [DATASET_INTEGRATION](docs/DATASET_INTEGRATION.md) for details.
+
 ## Setup
 1. Create a Python environment (3.10+ recommended) and install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-2. Prepare Ultralytics dataset YAML and class names file (yaml/json/txt).
+2. Prepare a dataset YAML (two options):
+   - Roboflow: `pip install roboflow`, then use `scripts/prepare_dataset.py --source roboflow --workspace lamar-university-venef --project liquor-data --version 4` and pass the printed `data.yaml` to `--data`.
+   - Local: ensure `train/val/test` folder structure; if no `data.yaml`, run `scripts/prepare_dataset.py --source local --dataset-dir /path/to/dataset --classes docs/classes.txt`.
 3. Ensure MLflow is configured (default local `file:./mlruns`). If using DVC, initialize your dataset within the repo.
+
+See [DATASET_INTEGRATION](docs/DATASET_INTEGRATION.md) for details.
 
 ## Running Experiments
 - Train YOLOv8:
